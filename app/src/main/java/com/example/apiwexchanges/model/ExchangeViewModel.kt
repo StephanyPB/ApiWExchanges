@@ -30,7 +30,7 @@ class ExchangeViewModel @Inject constructor(
                     _state.value = ListStateExchange(exchange = result.data ?: emptyList())
                 }
                 is Resource.Error -> {
-                    _state.value = ListStateExchange(error = result.message ?: "Error desconocido")
+                    _state.value = ListStateExchange(error = result.message ?: "Error!")
                 }
             }
         }.launchIn(viewModelScope)
