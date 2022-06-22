@@ -16,9 +16,9 @@ import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.hilt.navigation.compose.hiltViewModel
+import com.example.apiwexchanges.data.remote.dto.Exchange
+import com.example.apiwexchanges.model.ExchangeViewModel
 import com.example.apiwexchanges.ui.theme.ApiWExchangesTheme
-import com.example.exampleexchanges.data.remote.dto.Exchange
-import com.example.exampleexchanges.model.ExchangeViewModel
 import dagger.hilt.android.AndroidEntryPoint
 
 @AndroidEntryPoint
