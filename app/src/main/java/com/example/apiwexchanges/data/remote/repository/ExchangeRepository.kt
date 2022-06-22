@@ -17,8 +17,8 @@ class ExchangeRepository @Inject constructor(
             emit(Resource.Loading()) //Indicar que estamos cargando
 
             val exchanges = api.getExchange() //Descargando las monedas de internet
-
             emit(Resource.Success(exchanges)) //Se cargo correctamente y pasarle las monedas
+
         } catch (e: HttpException) {
             emit(Resource.Error(e.message ?: "Error HTTP GENERAL"))//Error general HTTP
         } catch (e: IOException) {
