@@ -1,6 +1,6 @@
-package com.example.exampleexchanges.data
+package com.example.apiwexchanges.data
 
-import com.example.exampleexchanges.data.remote.dto.Exchange
+import com.example.apiwexchanges.data.remote.dto.Exchange
 import retrofit2.http.GET
 import retrofit2.http.Path
 
