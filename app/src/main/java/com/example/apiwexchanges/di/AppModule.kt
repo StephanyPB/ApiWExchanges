@@ -1,7 +1,7 @@
-package com.example.exampleexchanges.di
+package com.example.apiwexchanges.di
 
-import com.example.exampleexchanges.data.ExchangeAPI
-import com.example.exampleexchanges.data.remote.repository.ExchangeRepository
+import com.example.apiwexchanges.data.ExchangeAPI
+import com.example.apiwexchanges.data.remote.repository.ExchangeRepository
 import com.squareup.moshi.Moshi
 import com.squareup.moshi.kotlin.reflect.KotlinJsonAdapterFactory
 import dagger.Module
