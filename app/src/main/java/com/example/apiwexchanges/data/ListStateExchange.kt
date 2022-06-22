@@ -1,6 +1,6 @@
-package com.example.exampleexchanges.data
+package com.example.apiwexchanges.data
 
-import com.example.exampleexchanges.data.remote.dto.Exchange
+import com.example.apiwexchanges.data.remote.dto.Exchange
 
 data class ListStateExchange (
     val isLoading: Boolean = false,
