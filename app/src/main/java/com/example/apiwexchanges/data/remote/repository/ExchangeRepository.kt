@@ -1,8 +1,8 @@
-package com.example.exampleexchanges.data.remote.repository
+package com.example.apiwexchanges.data.remote.repository
 
-import com.example.exampleexchanges.data.ExchangeAPI
-import com.example.exampleexchanges.data.remote.dto.Exchange
-import com.example.exampleexchanges.util.Resource
+import com.example.apiwexchanges.data.ExchangeAPI
+import com.example.apiwexchanges.data.remote.dto.Exchange
+import com.example.apiwexchanges.util.Resource
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.flow
 import retrofit2.HttpException
