@@ -1,6 +1,6 @@
 buildscript {
     ext {
-        compose_version = '1.1.0-beta01'
+        compose_version = '1.2.0-beta02'
         hilt_version='2.42'
         //room_version='2.4.2'
         lifecycle_rutine='2.3.1'
